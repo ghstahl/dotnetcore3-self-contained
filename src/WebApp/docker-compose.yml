@@ -1,0 +1,10 @@
+﻿version: '3.7'
+services:
+
+  WebApp:
+    image: dotnetcore3/self-contained-webapp
+    ports:
+      - 6000:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - CORECLR_GLOBAL_INVARIANT=1
