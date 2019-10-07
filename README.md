@@ -1,0 +1,1 @@
+# dotnetcore3-self-contained
